@@ -38,7 +38,7 @@ body{
 }
 
 .quote_section_fernando{
-    width:800px;
+    width: 800px;
     height: 450px;
     background-color: rgb(12, 55, 91);
     display: block;
@@ -47,11 +47,37 @@ body{
 
 .portrait{
     width: 250px;
-    height:250px;
+    height: 250px;
     border-radius: 50%;
 
 }
 
-.quote cite{
+.quote_section_lukas{
+    width: 800px;
+    height: 1000px;
+    background-color: rgb(12, 55, 91);
     display: block;
+    margin: auto;
+}
+
+.quote_section_christian{
+    width: 800px;
+    height: 600px;
+    background-color: rgb(12, 55, 91);
+    display: block;
+    margin: auto;
+}
+
+.prof_names{
+    color: rgb(238, 232, 232); 
+    font-size: 20px; 
+    text-align: center;
+    font-weight: bold;
+}
+
+.quote{
+    background-color: rgba(238, 232, 232, 0.11);
+    border-radius: 5px;
+    padding:10px;
+    border: solid 1px rgba(139, 136, 136, 0.644)
 }
