@@ -81,3 +81,39 @@ body{
     padding:10px;
     border: solid 1px rgba(139, 136, 136, 0.644)
 }
+
+.partner_section{
+    width:800px;
+    height: 465px;
+    background-color: rgb(238, 232, 232);
+    display: block;
+    margin: auto;
+}
+
+.partner_box{
+    background-color: rgba(12, 55, 91, 0.068);
+    border: 1px solid rgba(12, 55, 91, 0.267);
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 10px;
+    margin-top: 30px ;
+}
+
+.map_section{
+    width:800px;
+    height: 450px;
+    background-color: rgb(238, 232, 232);
+    display: block;
+    margin: auto;
+}
+
+.map_box{
+    background-color: rgba(12, 55, 91, 0.068);
+    border: 1px solid rgba(12, 55, 91, 0.267);
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 10px;
+    width: 310px;
+    height: 340px;
+    text-align: center;
+}
