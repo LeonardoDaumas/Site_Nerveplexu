@@ -26,8 +26,7 @@ body{
     display: block;
     margin: auto;
     box-sizing: border-box;
-    border-radius: 15px;
-    
+    border-radius: 15px;    
 }
 
 .light_section{
@@ -38,3 +37,21 @@ body{
     margin: auto;
 }
 
+.quote_section_fernando{
+    width:800px;
+    height: 450px;
+    background-color: rgb(12, 55, 91);
+    display: block;
+    margin: auto;
+}
+
+.portrait{
+    width: 250px;
+    height:250px;
+    border-radius: 50%;
+
+}
+
+.quote cite{
+    display: block;
+}
