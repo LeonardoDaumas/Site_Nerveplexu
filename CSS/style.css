@@ -118,10 +118,35 @@ body{
     text-align: center;
 }
 
-.description_section{
+.faculty_section{
     width: 800px;
     height: 450px;
     background-color: rgb(12, 55, 91);
     display: block;
     margin: auto;
+}
+
+.faculty_box{
+    width: 270px;
+    height: 345px;
+}
+
+.faculty_names{
+    color: white;
+    padding-left: 10px;
+    font-size: 17px;
+
+}
+
+.cadaver_team_section{
+    width: 800px;
+    height: 300px;
+    background-color: rgb(12, 55, 91);
+    display: block;
+    margin: auto;
+}
+
+.cadaver_box{
+    width: 260px;
+    height: 200px;
 }
