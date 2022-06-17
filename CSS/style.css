@@ -117,3 +117,11 @@ body{
     height: 340px;
     text-align: center;
 }
+
+.description_section{
+    width: 800px;
+    height: 450px;
+    background-color: rgb(12, 55, 91);
+    display: block;
+    margin: auto;
+}
