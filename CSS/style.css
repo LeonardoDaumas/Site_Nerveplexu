@@ -3,11 +3,53 @@
     padding:0;
     font-family: 'Titillium Web', sans-serif;
     color: rgb(0, 67, 122);
+
 }
 
 body{
     background-color: rgb(207, 204, 204);
 }
+
+header{
+    width: 800px;
+    height: 50px;
+    background-color: rgb(238, 232, 232);
+    display: block;
+    margin: auto;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid rgba(12, 55, 91, 0.521);
+    box-sizing: border-box;
+}
+
+#menu_bar{
+    margin: auto;
+    width: 660px;
+    height: 30px;
+
+
+}
+
+.menu_item{
+    list-style: none;
+    float: left;
+    margin: 12px;
+    font-size: 18px;
+    font-weight: 900;   
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu_item:hover{
+    border-bottom: 2px solid rgba(12, 55, 91, 0.521);
+    box-sizing: border-box;
+    
+
+}
+
+
 
 #title_section{
     width: 800px;
@@ -37,9 +79,9 @@ body{
     margin: auto;
 }
 
-.quote_section_fernando{
+#quote_section_fernando{
     width: 800px;
-    height: 450px;
+    height: 470px;
     background-color: rgb(12, 55, 91);
     display: block;
     margin: auto;
@@ -52,17 +94,17 @@ body{
 
 }
 
-.quote_section_lukas{
+#quote_section_lukas{
     width: 800px;
-    height: 1000px;
+    height: 1020px;
     background-color: rgb(12, 55, 91);
     display: block;
     margin: auto;
 }
 
-.quote_section_christian{
+#quote_section_christian{
     width: 800px;
-    height: 600px;
+    height: 625px;
     background-color: rgb(12, 55, 91);
     display: block;
     margin: auto;
@@ -118,7 +160,7 @@ body{
     text-align: center;
 }
 
-.faculty_section{
+#faculty_section{
     width: 800px;
     height: 450px;
     background-color: rgb(12, 55, 91);
@@ -138,6 +180,7 @@ body{
 
 }
 
+
 .cadaver_team_section{
     width: 800px;
     height: 300px;
@@ -149,4 +192,87 @@ body{
 .cadaver_box{
     width: 260px;
     height: 200px;
+}
+
+.focus_themes_section{
+    width: 800px;
+    height: 530px;
+    background-color: rgb(12, 55, 91);
+    display: block;
+    margin: auto;
+}
+
+.focus_themes_box{
+    width: 350px;
+    height: 300px;
+}
+
+.focus_themes_topics{
+    color: white;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    text-align: left;
+    list-style-position: inside;
+    
+}
+
+#accomodation_section{
+    width:800px;
+    height: 600px;
+    background-image: url(../Assets/othon_hotel1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    margin: auto;
+}
+
+#hotel_box{
+    width: 480px;
+    height: 200px;
+    background-color: rgba(12, 55, 91, 0.863);
+    display: block;
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 15px;    
+}
+
+footer{
+    width: 800px;
+    height: 100px;
+    display: block;
+    margin: auto;
+    background-color: rgb(12, 55, 91);
+
+}
+
+#contact_section{
+    width:800px;
+    height: 600px;
+    background-color: rgb(238, 232, 232);
+    display: block;
+    margin: auto;
+
+}
+
+#send_button{
+    padding-right: 27px;
+    padding-left: 27px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    background-color:rgb(12, 55, 91);
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+}
+
+#send_button:hover{
+    background-color:rgba(12, 55, 91, 0.788);
+    color: rgb(182, 182, 182);
+    font-weight: 600;
+    border: 1px solid;
+    box-sizing: border-box;
 }
