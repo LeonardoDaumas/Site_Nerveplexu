@@ -271,7 +271,7 @@ a{
 
 footer{
     width: 800px;
-    height: 370px;
+    height: 430px;
     display: block;
     margin: auto;
     background-color: rgb(12, 55, 91);
@@ -300,6 +300,7 @@ footer{
     border-radius: 10px;
     margin: auto;
     display: block;
+    cursor: pointer;
 }
 
 #send_button:hover{
