@@ -252,7 +252,7 @@ a{
 #accomodation_section{
     width:800px;
     height: 600px;
-    background-image: url(../Assets/othon_hotel1.webp);
+    background-image: url(../Assets/windsor_hotel.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     display: block;
@@ -262,7 +262,7 @@ a{
 #hotel_box{
     width: 480px;
     height: 200px;
-    background-color: rgba(12, 55, 91, 0.863);
+    background-color: rgba(12, 55, 91, 0.808);
     display: block;
     margin: auto;
     box-sizing: border-box;
@@ -271,14 +271,14 @@ a{
 
 footer{
     width: 800px;
-    height: 430px;
+    height: 475px;
     display: block;
     margin: auto;
     background-color: rgb(12, 55, 91);
 
 }
 
-#contact_section{
+#register_section{
     width:800px;
     height: 670px;
     background-color: rgb(238, 232, 232);
