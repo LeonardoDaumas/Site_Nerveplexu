@@ -20,12 +20,14 @@ header{
     top: 0;
     border-bottom: 1px solid rgba(12, 55, 91, 0.521);
     box-sizing: border-box;
+    z-index: 1;
 }
 
 #menu_bar{
     margin: auto;
     width: 660px;
     height: 30px;
+    position: relative;
 
 
 }
@@ -49,7 +51,31 @@ a{
 
 }
 
+/* #warning{
+    margin: auto;
+    text-align: center;
+    width: 800px;
+    height: 30px;
+    background-color: rgb(238, 232, 232);
+    color: rgb(247, 0, 0);
+    font-weight: bold;
 
+    
+} */
+
+#warning_seal{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    left: 550px;
+    bottom: 300px;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    
+
+}
 
 #title_section{
     width: 800px;
