@@ -348,3 +348,9 @@ footer{
     border: 1px solid;
     box-sizing: border-box;
 }
+
+.brazil_flag:after{
+    display: inline-block;
+    src:url(../Assets/brazil_flag.png)
+    
+}
