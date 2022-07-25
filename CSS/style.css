@@ -36,6 +36,8 @@ header{
     list-style: none;
     float: left;
     margin: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
     font-size: 16px;
     font-weight: 900;   
 }
@@ -47,6 +49,7 @@ a{
 .menu_item:hover{
     border-bottom: 2px solid rgba(12, 55, 91, 0.521);
     box-sizing: border-box;
+    cursor: pointer;
     
 
 }
@@ -108,11 +111,13 @@ a{
 
 
 
-
+#honored_guests{
+    margin-top: 10px;
+}
 
 #quote_section_background{
     width: 800px;
-    height: 1940px;
+    height: 2250px;
     background-color: rgb(12, 55, 91);
     display: block;
     margin: auto;
@@ -123,6 +128,13 @@ a{
 .portrait{
     width: 250px;
     height: 250px;
+    border-radius: 50%;
+
+}
+
+.portrait_honored{
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
 
 }
@@ -192,7 +204,7 @@ a{
 
 .map_section{
     width:800px;
-    height: 500px;
+    height: 450px;
     background-color: rgb(238, 232, 232);
     display: block;
     margin: auto;
