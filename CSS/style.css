@@ -224,7 +224,7 @@ a{
 
 #faculty_and_focus_background{
     width: 800px;
-    height: 1350px;
+    height: 1420px;
     background-color: rgb(12, 55, 91);
     display: block;
     margin: auto;
@@ -233,7 +233,7 @@ a{
 
 #faculty_section{
     width: 800px;
-    height: 450px;
+    height: 510px;
     display: block;
     margin: auto;
 }
@@ -260,7 +260,7 @@ a{
 }
 
 .cadaver_box{
-    width: 260px;
+    width: 280px;
     height: 200px;
 }
 
@@ -349,8 +349,62 @@ footer{
     box-sizing: border-box;
 }
 
-.brazil_flag:after{
+#brazil_flag:after{
     display: inline-block;
-    src:url(../Assets/brazil_flag.png)
-    
+    content: url(../Assets/brazil_flag.png);
+}
+
+#usa_flag:after{
+    display: inline-block;
+    content: url(../Assets/usa_flag.png);
+}
+
+#mexico_flag:after{
+    display: inline-block;
+    content: url(../Assets/mexico_flag.png);
+}
+
+#germany_flag:after{
+    display: inline-block;
+    content: url(../Assets/germany_flag.png);
+}
+
+#argentina_flag:after{
+    display: inline-block;
+    content: url(../Assets/argentina_flag.png);
+}
+
+#dubai_flag:after{
+    display: inline-block;
+    content: url(../Assets/dubai_flag.png);
+}
+
+#paraguay_flag:after{
+    display: inline-block;
+    content: url(../Assets/paraguay_flag.png);
+}
+
+#uruguay_flag:after{
+    display: inline-block;
+    content: url(../Assets/uruguay_flag.png);
+}
+
+#india_flag:after{
+    display: inline-block;
+    content: url(../Assets/india_flag.png);
+}
+
+#serbia_flag:after{
+    display: inline-block;
+    content: url(../Assets/serbia_flag.png);
+}
+
+#austria_flag:after{
+    display: inline-block;
+    content: url(../Assets/austria_flag.png);
+}
+
+#italy_flag:after{
+    display: inline-block;
+    content: url(../Assets/italy_flag.png);
 }
