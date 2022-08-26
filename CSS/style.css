@@ -313,9 +313,33 @@ a{
     border-radius: 15px;    
 }
 
+#reservation_box{
+    width: 240px;
+    height: 50px;
+    background-color: rgba(255, 0, 0, 0.726);
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 9px;   
+    padding-top: 4px;
+    border: 1px  black;
+
+}
+
+#reservation_box:hover{
+    background-color: rgb(255, 0, 0);
+    border: 1px solid goldenrod;
+
+
+}
+
+
+
 footer{
     width: 800px;
-    height: 475px;
+    height: 485px;
     display: block;
     margin: auto;
     background-color: rgb(12, 55, 91);
@@ -330,6 +354,7 @@ footer{
     margin: auto;
 
 }
+
 
 
 #send_button{
